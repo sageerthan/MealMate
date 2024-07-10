@@ -1,0 +1,34 @@
+.sidebar{
+    width:15%;
+    min-height: 100vh;
+    background-color: #ffd463;
+    font-size: max(1vw,18px);
+}
+.custom-size{
+    font-size: 30px;
+}
+
+.sidebar-options{
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    gap:20px;
+}
+.sidebar-option{
+    display:flex;
+    align-items: center;
+    gap:12px;
+    padding: 8px 1px;
+    padding-left: 20%;
+    cursor: pointer;
+}
+.sidebar-option:hover{
+    background-color: white;
+    transform: translateY(-5px);
+   
+}
+@media (max-width:900px){
+     .sidebar-option p{
+        display:none;
+     }
+}
